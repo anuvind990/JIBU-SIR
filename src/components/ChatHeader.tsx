@@ -12,7 +12,7 @@ const ChatHeader = () => {
             <Bot className="h-5 w-5" />
           </div>
           <div>
-            <h2 className="text-lg font-bold">Code Buddy</h2>
+            <h2 className="text-lg font-bold">JIBU SIR</h2>
             <p className="text-xs text-primary-foreground/80">
               Your programming assistant
             </p>
