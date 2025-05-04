@@ -21,9 +21,9 @@ const ChatMessageList = ({ messages, isTyping }: ChatMessageListProps) => {
       {messages.length === 0 ? (
         <div className="flex items-center justify-center h-full text-center text-muted-foreground">
           <div>
-            <h3 className="font-medium text-lg">Welcome to Code Buddy!</h3>
+            <h3 className="font-medium text-lg">Welcome to JIBU SIR!</h3>
             <p className="max-w-md mt-2">
-              Ask me anything about Python, Java, HTML, CSS, JavaScript and other programming languages. I'm here to help with your coding questions!
+              I'm here to help with all your programming questions. Just ask me anything about Python, JavaScript, Java, or any other language you're curious about!
             </p>
           </div>
         </div>
@@ -39,10 +39,11 @@ const ChatMessageList = ({ messages, isTyping }: ChatMessageListProps) => {
       )}
       
       {isTyping && (
-        <div className="flex items-center space-x-2 text-muted-foreground">
-          <span className="w-2 h-2 bg-muted-foreground rounded-full animate-pulse"></span>
-          <span className="w-2 h-2 bg-muted-foreground rounded-full animate-pulse delay-100"></span>
-          <span className="w-2 h-2 bg-muted-foreground rounded-full animate-pulse delay-200"></span>
+        <div className="flex items-center space-x-2 text-muted-foreground p-2">
+          <span className="text-xs">JIBU SIR is typing</span>
+          <span className="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
+          <span className="w-2 h-2 bg-primary rounded-full animate-pulse delay-100"></span>
+          <span className="w-2 h-2 bg-primary rounded-full animate-pulse delay-200"></span>
         </div>
       )}
       

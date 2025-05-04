@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Bot } from "lucide-react";
+import { Bot, MessageCircle } from "lucide-react";
 import { Card, CardHeader } from "@/components/ui/card";
 
 const ChatHeader = () => {
@@ -14,7 +14,7 @@ const ChatHeader = () => {
           <div>
             <h2 className="text-lg font-bold">JIBU SIR</h2>
             <p className="text-xs text-primary-foreground/80">
-              Your programming assistant
+              Your friendly programming companion
             </p>
           </div>
         </div>

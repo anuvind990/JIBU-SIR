@@ -8,10 +8,10 @@ const Index = () => {
       <div className="container mx-auto py-8">
         <header className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-primary mb-2">
-            Learning Management System
+            Programming Learning Assistant
           </h1>
           <p className="text-lg text-muted-foreground">
-            Get help with programming concepts and languages - powered by web search
+            Chat with JIBU SIR - your friendly AI programming tutor
           </p>
         </header>
         <ChatBot />
