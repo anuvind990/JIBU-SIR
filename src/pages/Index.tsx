@@ -11,7 +11,7 @@ const Index = () => {
             Learning Management System
           </h1>
           <p className="text-lg text-muted-foreground">
-            Get help with programming concepts and languages
+            Get help with programming concepts and languages - powered by web search
           </p>
         </header>
         <ChatBot />
